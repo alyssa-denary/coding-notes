@@ -2,6 +2,7 @@
 - No symbols besides $ or __  in variable names
 - Global scope - Defined outside of all code blocks
 - Local scope - Defined inside of a code block
+
 ### Variable shadowing: 
 	- When a variable's local scope uses it's value instead of a variable in a parent's scope.
 ``` js
@@ -27,7 +28,7 @@ if (true){
 
 ### Leaked Global: 
 	- When variable is never officially defined (using let/const/var), Javascript looks for it, and when it gets to global and doesn't find it, it defines it in global memory. 
-	  ``` js
+ ``` js
 // Global 
 	// Local 
 		// Local
@@ -47,7 +48,8 @@ if (true){
 }
 ```
 	- Avoid this by making sure to declare all variables using let/const!
-- Null & Undefined
+
+### Null & Undefined
 	- Undefined used as Javascript language default for unassigned variables. Happens when:
 		- return value of a function not defined
 		- if a variable is declared but not assigned a value

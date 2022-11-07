@@ -209,16 +209,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b7ca1e5a18f7b6be",
+  "active": "c068692ae8b2a978",
   "lastOpenFiles": [
-    "README.md",
-    "terminal-and-unix/terminal-fundamentals/shortcuts.md",
     "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
     "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "terminal-and-unix/terminal-fundamentals/review-questions.md",
+    "terminal-and-unix/terminal-fundamentals/shortcuts.md",
     "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
-    "terminal-and-unix/permissions-redirection-piping/Redirection.md",
+    "terminal-and-unix/permissions-redirection-piping/permissions-and-links.md",
     "terminal-and-unix/permissions-redirection-piping/Piping.md",
-    "terminal-and-unix/permissions-redirection-piping/permissions-and-links.md"
+    "terminal-and-unix/permissions-redirection-piping/Redirection.md",
+    "vanilla-js/javascript-basics.md",
+    "README.md"
   ]
 }
