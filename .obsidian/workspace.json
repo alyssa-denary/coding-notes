@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/review-questions.md",
+                "file": "terminal-and-unix/terminal-fundamentals/shortcuts.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/review-questions.md",
+                "file": "terminal-and-unix/terminal-fundamentals/shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/review-questions.md",
+                "file": "terminal-and-unix/terminal-fundamentals/shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/review-questions.md"
+                "file": "terminal-and-unix/terminal-fundamentals/shortcuts.md"
               }
             }
           }
@@ -199,11 +199,11 @@
   },
   "active": "4705db3bfceecf35",
   "lastOpenFiles": [
-    "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
-    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
+    "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "terminal-and-unix/terminal-fundamentals/review-questions.md",
     "terminal-and-unix/terminal-fundamentals/shortcuts.md",
+    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
     "terminal-and-unix/permissions-redirection-piping/Redirection.md",
     "terminal-and-unix/permissions-redirection-piping/Piping.md",
     "terminal-and-unix/permissions-redirection-piping/permissions-and-links.md"
