@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vanilla-js/Math.random.md",
+                "file": "vanilla-js/javascript-basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vanilla-js/Math.random.md",
+                "file": "vanilla-js/javascript-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vanilla-js/Math.random.md",
+                "file": "vanilla-js/javascript-basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vanilla-js/Math.random.md"
+                "file": "vanilla-js/javascript-basics.md"
               }
             }
           }
@@ -233,8 +233,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b7ca1e5a18f7b6be",
+  "active": "a66d447aee808bc6",
   "lastOpenFiles": [
+    "vanilla-js/Math.random.md",
     "computer-science/Big O Complexity.md",
     "vanilla-js/javascript-basics.md",
     "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
@@ -243,7 +244,6 @@
     "terminal-and-unix/terminal-fundamentals/shortcuts.md",
     "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
     "terminal-and-unix/permissions-redirection-piping/permissions-and-links.md",
-    "terminal-and-unix/permissions-redirection-piping/Piping.md",
-    "terminal-and-unix/permissions-redirection-piping/Redirection.md"
+    "terminal-and-unix/permissions-redirection-piping/Piping.md"
   ]
 }
