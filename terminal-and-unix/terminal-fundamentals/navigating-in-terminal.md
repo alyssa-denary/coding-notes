@@ -1,0 +1,24 @@
+
+- What is a shell? Bash/ZSH
+	- Shell is a program that actually processes commands and returns output. Manages foreground and background processees, command history and command line editing.
+	- Terminal is a wrapper program that runs a shell. (used to be physical device of just monitor and keyboard, now abstracted in software)
+- How is Terminal Structured?
+	- In terminal, all files & folders start in the root directory. root directory is noted by /
+	- Root directory has many important files and programs for computer, hence don't want to modify these files & folders often
+	- Instead we usually modify files & folders of our home directory, which is our own user folder within a Users folder in the root directory. Home directory is noted by ~
+	- ~ is same thing as saying /Users/alyssa  (assuming my username is alyssa)
+- How do you move around your files & folders
+	- cd is change directory, and is the command use to navigate directories/folders
+	- type cd followed by the directory or path name you want to navigate to
+	- to move up a directory, type cd ..
+- Absolute vs Relative paths
+	- A path is simply a way to reach a file or folder
+	- Absolute path states the path starting from the root directory
+	- Relative path states the path starting from where you are at now
+	- For example, if in the home directory and I want to navigate to Desktop can do so in 2 ways:
+		- Absolute path: cd /Users/alyssa/Desktop  
+		- Relative path: cd Desktop
+-  Questions to Answer
+	-   What is the difference between `/` and `~`? What do we call each of these directories?
+	-   What command do we use to change directories?
+	-   What is the difference between an absolute and relative path?
