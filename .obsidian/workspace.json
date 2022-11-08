@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "b5948243c8dcaa35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "html/HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "db070395b86f2e8d",
             "type": "leaf",
             "state": {
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -257,17 +269,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "84e4e4d63548c67f",
+  "active": "b5948243c8dcaa35",
   "lastOpenFiles": [
-    "computer-science/big-O-complexity.md",
+    "computer-science/pipeline-to-binary-code.md",
     "html/HTML.md",
+    "computer-science/big-O-complexity.md",
     "vanilla-js/javascript-basics.md",
     "terminal-and-unix/permissions-redirection-piping/Redirection.md",
     "vanilla-js/Math.random.md",
     "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
     "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "terminal-and-unix/terminal-fundamentals/review-questions.md",
-    "terminal-and-unix/terminal-fundamentals/shortcuts.md",
-    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md"
+    "terminal-and-unix/terminal-fundamentals/shortcuts.md"
   ]
 }
