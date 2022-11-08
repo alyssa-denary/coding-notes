@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terminal-and-unix/permissions-redirection-piping/Redirection.md",
+                "file": "vanilla-js/javascript-basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84e4e4d63548c67f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "html/HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/Big O Complexity.md",
+                "file": "computer-science/big-O-complexity.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "organizational-tips/slack-flow.md",
+                "file": "html/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "organizational-tips/slack-flow.md",
+                "file": "html/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "organizational-tips/slack-flow.md"
+                "file": "html/HTML.md"
               }
             }
           }
@@ -245,17 +257,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b7ca1e5a18f7b6be",
+  "active": "84e4e4d63548c67f",
   "lastOpenFiles": [
+    "computer-science/big-O-complexity.md",
+    "html/HTML.md",
     "vanilla-js/javascript-basics.md",
+    "terminal-and-unix/permissions-redirection-piping/Redirection.md",
     "vanilla-js/Math.random.md",
-    "computer-science/Big O Complexity.md",
     "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
     "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "terminal-and-unix/terminal-fundamentals/review-questions.md",
     "terminal-and-unix/terminal-fundamentals/shortcuts.md",
-    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
-    "terminal-and-unix/permissions-redirection-piping/permissions-and-links.md",
-    "terminal-and-unix/permissions-redirection-piping/Piping.md"
+    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md"
   ]
 }
