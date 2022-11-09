@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "825e51f1888a180c",
+            "id": "c5b85d92ed6fc023",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "recursion/javascript-recursion-tips.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "recursion/javascript-recursion-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "recursion/javascript-recursion-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "recursion/javascript-recursion-tips.md"
+              }
             }
           }
         ]
@@ -136,7 +144,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "825e51f1888a180c",
+  "active": "b7ca1e5a18f7b6be",
   "lastOpenFiles": [
     "computer-science/pipeline-to-binary-code.md",
     "computer-science/big-O-complexity.md",
