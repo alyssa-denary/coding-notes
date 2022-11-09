@@ -8,151 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2fb75d2a61451a3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vanilla-js/javascript-basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84e4e4d63548c67f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "html/HTML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5948243c8dcaa35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "html/HTML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db070395b86f2e8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9759a5ffb0e29418",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0290e87ea205b290",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/shortcuts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a3f0a4f44314d1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4705db3bfceecf35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c068692ae8b2a978",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vanilla-js/javascript-basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdefe4481da8f01b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-science/big-O-complexity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a66d447aee808bc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vanilla-js/javascript-basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "825e51f1888a180c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "organizational-tips/slack-flow.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,6 +60,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "7299c2613c27500d",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -218,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "html/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "html/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "html/HTML.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -269,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5948243c8dcaa35",
+  "active": "825e51f1888a180c",
   "lastOpenFiles": [
     "computer-science/pipeline-to-binary-code.md",
-    "html/HTML.md",
     "computer-science/big-O-complexity.md",
+    "organizational-tips/slack-flow.md",
     "vanilla-js/javascript-basics.md",
-    "terminal-and-unix/permissions-redirection-piping/Redirection.md",
-    "vanilla-js/Math.random.md",
-    "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md",
+    "README.md",
+    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
+    "html/HTML.md",
+    "terminal-and-unix/terminal-fundamentals/shortcuts.md",
     "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
-    "terminal-and-unix/terminal-fundamentals/review-questions.md",
-    "terminal-and-unix/terminal-fundamentals/shortcuts.md"
+    "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md"
   ]
 }
