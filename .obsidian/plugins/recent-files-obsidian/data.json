@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "machine-code",
+      "path": "computer-science/machine-code.md"
+    },
+    {
       "basename": "navigating-in-terminal",
       "path": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "javascript-recursion-tips",
       "path": "recursion/javascript-recursion-tips.md"
-    },
-    {
-      "basename": "pipeline-to-binary-code",
-      "path": "computer-science/pipeline-to-binary-code.md"
     },
     {
       "basename": "big-O-complexity",
