@@ -1,0 +1,139 @@
+Goal: to Abstract away from machine code/1s and 0s to be more efficient and effective
+
+Lowest to Highest level languages:
+Machine code: Binary code
+Short Code/Short Order Code: One of the first low-level languages. Example: Assembly language (Assembler) - still used today
+![[Screen Shot 2022-11-10 at 9.57.08 AM.png]]
+
+Beginning Human readable languages:
+- FORTRAN (FORUMula TRANslator) 1954 by John Backus, IBM
+- Lisp in 1958
+- COBOL (Common Business-Oriented Language) in 1960
+- BASIC (Beginner's All-purpose Symbolic Instruction Code) in 1964
+
+
+  ![[Screen Shot 2022-11-10 at 10.01.57 AM.png]]
+
+- Algorithm engine - 1883
+	- Ada lovelace
+	- First programming language
+- Assembly - 1949
+	- Calculator for differential equations
+- Autocode: 1952 Family of early programming languages:
+- First manchester mark 1 - 1952
+	- first to run through a compiler
+- Fortran 1957 
+	- used in programs that benchmark world's fastest supercomputers, still used widely today
+- Algo -1958  
+	- Used as basis for Pascal C C++ Java
+	- One of the most influencial early programming languages
+	- Codeblocks with beginning/end delimiters
+	- Nested function definitions with lexical scoping
+- COBOL -1959
+	- Developed by Grace Hopper
+	- Common in ATM, telephone, buisiness/finance system
+	- terminator vision display
+- Lisp -1959
+	- developed at MIT
+	- 2nd oldest high level language after Fortran
+	- Made up of linked lists
+	- Popular for study of AI
+- Basic - 1964
+	- Developed at Dartmouth
+	- Created for students not strong in math
+- Microsoft Basic - 1975
+	- Bill Gates and Paul Allen modifies Basic, microsoft first products
+- Pascal - 1970
+	- Easy to learn compared to previous
+	- Efficient designed to encourage proper structures
+	- Used in apple's early development
+- Smalltalk - 1972
+	- Developed by folks at Xerox
+	- Designed to modify code on on the fly
+	- Primary for educational purpose
+	- inspired creator of python
+- C - 1972
+	- developed by dennis richie at bell labs
+	- Developed so UNIX could run on different types of computers
+	- Still one of the most popular languages used
+- SQL - 1972
+	- Developed at IBM folks
+	- Designed around querying databases
+- Matlab - 1978
+	- Best programming language for advanced mathmatical computations
+	- Indispensible for mathmatical research
+	- Manipulating matrices
+- Obj-C (Objective C) - 1983
+	- Smalltalk style messaging with C programming language
+	- Until swift in 2014, Obj-C was main programming language for apple's mac-os and ios
+- C++ - 1983
+	- Developed at Bell labs
+	- C with classes
+	- System programming in mind, more high level features
+	- Popular high performance software like adobe photoshop and minecraft?
+- Perl - 1987
+	- Scripting language for text editing
+	- Borrows from C, basic, lisp
+	- Common used in linux, web dev, and network programming
+- Haskell - 1990
+	- Mathmatical program for high number crunching
+		- Functional languages (no pointers, no for loops, etc.)
+	- typeclasses
+	- type inference
+	- lazy evaluation
+- Python - 1991
+	- Much easier to read
+	- Less lines of code compared to previous
+	- Named after Monty Python
+	- Code readability
+	- Favored for data science
+- Visual Basic - 1991
+	- Developed by microsoft
+	- Add ability to drag and drop in GUI
+	- Designed to be easy to learn
+- R - 1993
+	- Developed in New Zealand
+	- Mostly by statisticians and data scientists for data analysis and statistical software
+- Java - 1995
+	- Developed by Sun microsystems
+	-  Originally called Oak
+	- Commonly taught for OO design and a few implementation dependencies
+	- Originally designed for cable boxes, then later improved for use on WWW
+	- Designed around phrase Write Once Run Anywhere
+	- Run on any Java Virtual Machine, independent of computer architechiture
+- php - 1995
+	- personal home page
+	- mostly used in web dev, like wordpress that is written in php
+- Ruby - 1995
+	- Combines fav aspects of perl, smalltalk, basic, lisp
+	- Mostly used in web dev, software stacks
+	- about as fast as php and python
+	- dynamic typing and garbage collection
+- Javascript - 1995
+	- Developed in 10 days
+	- Enhancing web browser interactions
+	- just in time compiled
+	- Core tech with html css
+- C# - 2000
+	- Developed by microsoft a part of the .net initiative
+	- combine comp ability of C++ with simplicity of Visual Basic
+	- comparable to Java
+	- widely used through microsoft applications
+	- Strong typing, lexical scope, object oriented
+- Scala - 2003
+	- Combine mathmatical with OOP
+	- Focused on being Concise and improving from Java's OOP
+- Groovy - 2003
+	- Created as improvement on Java
+	- simplicity for learning, succinctness
+- Go / Go lang- 2009
+	- Developed by google
+	- Designed to fix problems common in google mint software system
+	- Similar to C syntax but adds memory safety, garbage collection and other features
+	- highest paid recent technical skills
+- Swift - 2014
+	- Replacement for every other language previously used at Apple
+	- Ease of use, small room for error
+	- Applicable to mac / ios
+	- Xcode to start learning swift and apple applications
+- 

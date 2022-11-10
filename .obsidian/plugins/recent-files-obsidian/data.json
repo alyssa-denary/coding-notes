@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "machine-code",
-      "path": "computer-science/machine-code.md"
+      "basename": "pipeline-to-machine-code",
+      "path": "computer-science/pipeline-to-machine-code.md"
+    },
+    {
+      "basename": "machine-code-binary-hex",
+      "path": "computer-science/machine-code-binary-hex.md"
     },
     {
       "basename": "navigating-in-terminal",

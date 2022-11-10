@@ -73,14 +73,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/machine-code.md",
+                "file": "computer-science/machine-code-binary-hex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9716c4fe2ad7385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer-science/pipeline-to-machine-code.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4a3e49a62871bf7a",
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/machine-code.md",
+                "file": "computer-science/pipeline-to-machine-code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/machine-code.md",
+                "file": "computer-science/pipeline-to-machine-code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/machine-code.md"
+                "file": "computer-science/pipeline-to-machine-code.md"
               }
             }
           }
@@ -205,8 +218,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5c0b87a57b82d2ad",
+  "active": "c9716c4fe2ad7385",
   "lastOpenFiles": [
+    "computer-science/machine-code-binary-hex.md",
     "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "css/margin.md",
     "css/display.md",
@@ -215,7 +229,6 @@
     "html/forms-and-buttons.md",
     "Algos/problem-solving-patterns.md",
     "recursion/javascript-recursion-tips.md",
-    "computer-science/machine-code.md",
     "computer-science/big-O-complexity.md"
   ]
 }
