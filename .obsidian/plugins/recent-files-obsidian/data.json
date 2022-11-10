@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "navigating-in-terminal",
+      "path": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md"
+    },
+    {
       "basename": "margin",
       "path": "css/margin.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "shortcuts",
       "path": "terminal-and-unix/terminal-fundamentals/shortcuts.md"
-    },
-    {
-      "basename": "navigating-in-terminal",
-      "path": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md"
     },
     {
       "basename": "listing-files-and-flags",

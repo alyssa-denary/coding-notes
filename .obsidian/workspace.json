@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/margin.md",
+                "file": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/margin.md",
+                "file": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/margin.md",
+                "file": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/margin.md"
+                "file": "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md"
               }
             }
           }
@@ -207,6 +207,7 @@
   },
   "active": "5c0b87a57b82d2ad",
   "lastOpenFiles": [
+    "css/margin.md",
     "css/display.md",
     "html/same-line-elements.md",
     "html/dividing-sections.md",
@@ -215,7 +216,6 @@
     "recursion/javascript-recursion-tips.md",
     "computer-science/pipeline-to-binary-code.md",
     "computer-science/big-O-complexity.md",
-    "organizational-tips/slack-flow.md",
-    "vanilla-js/javascript-basics.md"
+    "organizational-tips/slack-flow.md"
   ]
 }

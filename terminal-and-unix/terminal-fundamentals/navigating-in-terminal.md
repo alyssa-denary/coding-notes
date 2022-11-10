@@ -2,6 +2,7 @@
 - What is a shell? Bash/ZSH
 	- Shell is a program that actually processes commands and returns output. Manages foreground and background processees, command history and command line editing.
 	- Terminal is a wrapper program that runs a shell. (used to be physical device of just monitor and keyboard, now abstracted in software)
+	- Common examples of a shell are bash and ZSH
 - How is Terminal Structured?
 	- In terminal, all files & folders start in the root directory. root directory is noted by /
 	- Root directory has many important files and programs for computer, hence don't want to modify these files & folders often
