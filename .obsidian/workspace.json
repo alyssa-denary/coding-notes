@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6ea08686a20571c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/display.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c0b87a57b82d2ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/margin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -130,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "css/display.md",
+                "file": "css/margin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "css/display.md",
+                "file": "css/margin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "css/display.md"
+                "file": "css/margin.md"
               }
             }
           }
@@ -181,8 +205,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "667a5330f2d4e6f2",
+  "active": "5c0b87a57b82d2ad",
   "lastOpenFiles": [
+    "css/display.md",
+    "html/same-line-elements.md",
     "html/dividing-sections.md",
     "html/forms-and-buttons.md",
     "Algos/problem-solving-patterns.md",
@@ -190,8 +216,6 @@
     "computer-science/pipeline-to-binary-code.md",
     "computer-science/big-O-complexity.md",
     "organizational-tips/slack-flow.md",
-    "vanilla-js/javascript-basics.md",
-    "README.md",
-    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md"
+    "vanilla-js/javascript-basics.md"
   ]
 }

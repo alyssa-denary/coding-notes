@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "margin",
+      "path": "css/margin.md"
+    },
+    {
       "basename": "display",
       "path": "css/display.md"
+    },
+    {
+      "basename": "same-line-elements",
+      "path": "html/same-line-elements.md"
     },
     {
       "basename": "dividing-sections",
