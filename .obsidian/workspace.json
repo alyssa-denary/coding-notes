@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1010c35242f93f9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "html/forms-and-buttons.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "327976f97f6a8aa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "html/dividing-sections.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "667a5330f2d4e6f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/display.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "recursion/javascript-recursion-tips.md",
+                "file": "css/display.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "recursion/javascript-recursion-tips.md",
+                "file": "css/display.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "recursion/javascript-recursion-tips.md"
+                "file": "css/display.md"
               }
             }
           }
@@ -144,17 +181,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b7ca1e5a18f7b6be",
+  "active": "667a5330f2d4e6f2",
   "lastOpenFiles": [
+    "html/dividing-sections.md",
+    "html/forms-and-buttons.md",
+    "Algos/problem-solving-patterns.md",
+    "recursion/javascript-recursion-tips.md",
     "computer-science/pipeline-to-binary-code.md",
     "computer-science/big-O-complexity.md",
     "organizational-tips/slack-flow.md",
     "vanilla-js/javascript-basics.md",
     "README.md",
-    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md",
-    "html/HTML.md",
-    "terminal-and-unix/terminal-fundamentals/shortcuts.md",
-    "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
-    "terminal-and-unix/terminal-fundamentals/listing-files-and-flags.md"
+    "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md"
   ]
 }

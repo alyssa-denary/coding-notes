@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "display",
+      "path": "css/display.md"
+    },
+    {
+      "basename": "dividing-sections",
+      "path": "html/dividing-sections.md"
+    },
+    {
+      "basename": "forms-and-buttons",
+      "path": "html/forms-and-buttons.md"
+    },
+    {
+      "basename": "problem-solving-patterns",
+      "path": "Algos/problem-solving-patterns.md"
+    },
+    {
       "basename": "javascript-recursion-tips",
       "path": "recursion/javascript-recursion-tips.md"
     },
@@ -27,10 +43,6 @@
     {
       "basename": "working-with-files-and-folders",
       "path": "terminal-and-unix/terminal-fundamentals/working-with-files-and-folders.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "html/HTML.md"
     },
     {
       "basename": "shortcuts",
