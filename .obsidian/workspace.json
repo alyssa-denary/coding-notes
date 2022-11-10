@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-science/history-of-programming-languages.md",
+                "file": "computer-science/compiled-vs-interpreted.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4a3e49a62871bf7a",
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-science/history-of-programming-languages.md",
+                "file": "computer-science/compiled-vs-interpreted.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-science/history-of-programming-languages.md",
+                "file": "computer-science/compiled-vs-interpreted.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-science/history-of-programming-languages.md"
+                "file": "computer-science/compiled-vs-interpreted.md"
               }
             }
           }
@@ -220,15 +219,15 @@
   },
   "active": "c9716c4fe2ad7385",
   "lastOpenFiles": [
+    "computer-science/history-of-programming-languages.md",
+    "image/Screen Shot 2022-11-10 at 11.47.59 AM.png",
+    "computer-science/compiled-vs-interpreted.md",
     "computer-science/machine-code-binary-hex.md",
     "terminal-and-unix/terminal-fundamentals/navigating-in-terminal.md",
     "css/margin.md",
     "css/display.md",
     "html/same-line-elements.md",
     "html/dividing-sections.md",
-    "html/forms-and-buttons.md",
-    "Algos/problem-solving-patterns.md",
-    "recursion/javascript-recursion-tips.md",
-    "computer-science/big-O-complexity.md"
+    "html/forms-and-buttons.md"
   ]
 }

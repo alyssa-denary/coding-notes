@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=USCBCmwMCDA
 ![[Screen Shot 2022-11-08 at 12.01.06 PM.png]]
 
 #### Data Storage
+source: https://www.learnhowtoprogram.com/computer-science/bit-manipulation-and-hashing/bits-bytes-and-binary-numbers
 - **Bit**: Each wire with 1 or 0
 - **Nibble**: Group of 4 bits
 - **Byte**: 8 bits
@@ -43,6 +44,7 @@ A group of eight bits put together is known as a **byte**. A byte consists of 25
 ![[Screen Shot 2022-11-08 at 12.01.06 PM.png]]
 
 ### Hexadecimal System
+source: https://www.sciencedirect.com/topics/engineering/hexadecimal
 - Base 16 
 - This system, therefore, has numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.
 - Two-digit decimal numbers 10, 11, 12, 13, 14, and 15 must be represented by a single numeral to exist in this numbering system.

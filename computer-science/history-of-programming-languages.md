@@ -1,3 +1,4 @@
+source: https://knowthecode.io/labs/evolution-of-computing/episode-3
 Goal: to Abstract away from machine code/1s and 0s to be more efficient and effective
 
 Lowest to Highest level languages:
@@ -14,6 +15,7 @@ Beginning Human readable languages:
 
   ![[Screen Shot 2022-11-10 at 10.01.57 AM.png]]
 
+Source: https://www.youtube.com/watch?v=mhpslN-OD_o
 - Algorithm engine - 1883
 	- Ada lovelace
 	- First programming language
