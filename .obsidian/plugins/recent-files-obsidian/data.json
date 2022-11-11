@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Questions",
+      "path": "Questions.md"
+    },
+    {
       "basename": "compiled-vs-interpreted",
       "path": "computer-science/compiled-vs-interpreted.md"
     },
