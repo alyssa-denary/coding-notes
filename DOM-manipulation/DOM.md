@@ -24,8 +24,11 @@ document is modeled using a javascript object, that object is called document.
 		- To do something with each one, will need to iterate over the elements
 
 ### What you're going to do with what you find
-- delete: remove() method
+#### Delete an element: remove() method
 	- removes the selected element
-- edit text: textContent property
+#### Edit element's text: textContent property
 	- Can access and/or reassign textContent to be alternative. Example of editing curse words to be ******
-	
+#### Adding a new element: createElement() method
+	- Argument: type of element trying to create
+	- Returns: DOM representation/JS object of new element
+	- 
