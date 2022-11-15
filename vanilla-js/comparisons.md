@@ -1,0 +1,2 @@
+### On equality operators
+Here’s my personal rule. Use triple equals 99% of the time. The only exception is this cool trick  `thing != null`  which translates to (thing is not `null` OR `undefined`) it’s a handy way to making sure there is a value to `thing` without chaining a bunch of ifs.
