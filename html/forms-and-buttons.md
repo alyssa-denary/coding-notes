@@ -13,7 +13,7 @@
 		  -Password: Hides text while typed with dots
 		  -Radio: Single select
 		  -Checkbox: Multi-select
-	- Label
+	- Label: used to wrap input type and associate it with corresponding text
 
 #### Radio Buttons - single select
 ```html
