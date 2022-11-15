@@ -1,7 +1,7 @@
 ### Forms & Input:
 ```html
 <form action="where you want the data to go">
-	<input type="search, text, radio, checkbox" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
+	<input type="search, text, password radio, checkbox" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
 	<label><input type="radio">Radio Button</label> 
 	<!-- Label used to wrap input type and associate it with the corresponding text -->
 	<input id="loving" type="checkbox"> <label for="loving"> Loving </label>
@@ -10,6 +10,7 @@
 ```
 	- Type attribute:
 		  -Text: User text to enter
+		  -Password: Hides text while typed with dots
 		  -Radio: Single select
 		  -Checkbox: Multi-select
 	- Label
