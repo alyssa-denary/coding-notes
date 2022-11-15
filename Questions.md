@@ -5,8 +5,6 @@
 	- Read about 'newer' methods of using a separate reset stylesheet that your projects point to/utilize - with the advantage that you can tweak this and it will apply to all past projects without having to go through each one to update. 
 - Is there a generally accepted standard CSS reset I should be using?
 	- Eric Meyer's? (but is also from like 10 years ago)
-- CSS custom properties:
-	- Add for every single color? including places that use standard black/white, etc. ? 
 
 ## Questions to research:
 - .gitignore recommended way? generally global for all repos?
