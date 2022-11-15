@@ -26,6 +26,10 @@ document is modeled using a javascript object, that object is called document.
 ### What you're going to do with what you find
 #### Delete an element: remove() method
 	- removes the selected element
+#### Clear a whole section/div
+```js
+document.querySelector("CSS-selector").innerHTML = ""
+```
 #### Edit element's text: textContent property
 	- Can access and/or reassign textContent to be alternative. Example of editing curse words to be ******
 	- textContent is to h1/h2/h#/p as value is to input
