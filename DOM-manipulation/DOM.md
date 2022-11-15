@@ -28,6 +28,8 @@ document is modeled using a javascript object, that object is called document.
 	- removes the selected element
 #### Edit element's text: textContent property
 	- Can access and/or reassign textContent to be alternative. Example of editing curse words to be ******
+	- textContent is to h1/h2/h#/p as value is to input
+	  value shows what a user has typed into an input field
 #### Adding a new element: createElement() method
 	- Argument: type of element trying to create
 	- Returns: DOM representation/JS object of new element
