@@ -1,5 +1,5 @@
 ### Same-line-elements
-- Putting p elements on the same line modified spacing (padding? margin?) of the page
+- Putting p elements on the same line modified spacing (padding? margin?) of the page #questions 
 ```html
 <article class="item">
 <p class="flavor">French Vanilla</p><p class="price">3.00</p>
