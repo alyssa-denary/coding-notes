@@ -9,4 +9,4 @@
 ## Questions to research:
 - .gitignore recommended way? generally global for all repos?
   https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-- DOM manipulation: append() vs appendChild()
+- DOM manipulation: append() vs appendChild() #questions 
