@@ -24,3 +24,11 @@ PWD=/Users/tim/Projects/Rithm/prework
 .
 ```
 Each word on the left side of the equal sign is called an **environment variable**. The value on the right side is the value of the variable.
+
+### Using environment variables
+
+In the terminal, you can see what value an environment variable has by using `echo`. When referencing an environment variable, you must use the `$` as a prefix. In other words, to print the value for the environment variable `PWD`, the command would be:
+
+echo $PWD
+
+Try that in your terminal. You should get the same output as the output for the command `pwd`.
