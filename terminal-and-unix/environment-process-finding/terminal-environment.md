@@ -32,3 +32,23 @@ In the terminal, you can see what value an environment variable has by using `e
 echo $PWD
 
 Try that in your terminal. You should get the same output as the output for the command `pwd`.
+
+### Creating environment variables
+
+Now let's make our own environment variable. Go to your home directory and create a folder called `Projects`. Now let's make an environment variable called `PROJDIR` (environment variables are usually all caps) that keeps track of the path to your projects directory. To create an environment variable, you can use the `export` command. On a Mac or Linux machine, the command would be:
+
+```
+export PROJDIR=/Users/tim/Projects
+```
+
+Notice that the `$` isn't being used in this case. When you define an environment variable, you do not use the `$`. Only use the `$` when you want to reference the value of the variable.
+
+Now that you've created the environment variable, let's use it:
+```
+cd ~
+cd $PROJDIR
+```
+
+You should now be in your project directory.
+
+So now we have a great way of saving a useful variable in our terminal's environment, but we have a problem. Every time you close your terminal window, the environmet variables get reset, so the `PROJDIR` environment variable will be lost! How do we fix that?
