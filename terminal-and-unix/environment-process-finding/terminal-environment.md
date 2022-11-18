@@ -78,3 +78,41 @@ export PYTHON_DIR=$PROJDIR/python
 ```
 
 The only catch is that the line for exporting `PROJDIR` must come before the line using `PROJDIR`. Otherwise, `PROJDIR` will not yet be defined when we use it in the `PYTHON_DIR` definition.
+
+### The `PATH` environment variable
+
+An important environment variable to know and understand is the `PATH`. Your terminal uses the `PATH` environment variable to find programs to execute. Try the following in a new terminal window:
+
+```
+export PATH=
+```
+
+Now try using `ls` in the terminal. It doesn't work! Try a few other commands like `man` or `chgrp`. None of them work. That's because commands like `ls` are just programs stored in a file somewhere in your filesystem. The reason we don't normally need to give the full path to the `ls` command when we use it is because `ls` is a file found in one of the folders that are specified on the path.
+
+Open a fresh terminal window. The `ls` command should be working again. Now use the `which` command to see where on the path `ls` is coming from:
+
+```
+which ls
+```
+
+Typically, the `ls` command is located in the `/bin` directory (though if you're using oh-my-zsh, the command may be aliased to `ls -G`). Let's change our `PATH` environment variable again, but this time, let's assign it to `/bin`:
+
+```
+export PATH=/bin
+```
+
+Now try to use the ls command. It should still work! That's because `ls` can now be found in one of the folders of the `PATH`, specifically in `/bin`. Other commands still don't work however. The `man` command still isn't working because it is not found on the `PATH`. Let's add a few more directories to the `PATH` in the same terminal window. We want to add `/usr/bin`, `/usr/sbin`, and `/sbin`, but we don't want to rewrite the `PATH` variable completely. Instead, let's add to the `PATH` that already exists. In order to do that, we reference the `PATH` environment variable using the `$` and separate multiple paths using a colon:
+
+```
+export PATH=$PATH:/usr/bin:/usr/sbin:/sbin
+```
+
+Now if you do `echo $PATH`, you should see the following output:
+
+```
+/bin:/usr/bin:/usr/sbin:/sbin
+```
+
+And commands like `man` should work. Now that you understand the `PATH`, close the terminal window and open a fresh window, so that your `PATH` will be set up correctly.
+
+When you're ready, move on to [Processes](https://www.rithmschool.com/courses/terminal/terminal-process)
