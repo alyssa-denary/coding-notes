@@ -52,3 +52,29 @@ cd $PROJDIR
 You should now be in your project directory.
 
 So now we have a great way of saving a useful variable in our terminal's environment, but we have a problem. Every time you close your terminal window, the environmet variables get reset, so the `PROJDIR` environment variable will be lost! How do we fix that?
+
+### Saving environment variables
+
+Now that we know how to create environment variables, we need to learn how to save them so that every time we open a new terminal window, we have those environment variables set. To save environment variables, you need to modify the shell configuration file in your home directory. This file is different depending on what your default shell is. If you are using oh-my-zsh, then your configuration file will be called `.zshrc`; if you are using bash, then your configuration file will be called `.bash_profile`.
+
+Open the configuration file for your shell, either `.zshrc` or `.bash_profile`. Next, add the following line to your file:
+
+```
+export PROJDIR=/Users/$USER/Projects
+```
+
+Save the file, quit out of all terminal windows, and then open terminal again. Try executing `echo $PROJDIR`. You should see the path to your projects directory.
+
+We did one other interesting thing here. Rather than using a hard coded path to the projects directory, we used another environment variable to figure out the correct user name. Try typing `echo $USER` in your terminal. You should see your user name. The important takeaway here is that an environment variable can be defined using other environment variables. For example, if we had a `python` folder inside of the `Projects` directory, we may want a variable for that as well. We could definite it like the following way:
+
+```
+export PYTHON_PROJ=/Users/$USER/Projects/python
+```
+
+Or we could use the `PROJDIR` environment variable that we already have set:
+
+```
+export PYTHON_DIR=$PROJDIR/python
+```
+
+The only catch is that the line for exporting `PROJDIR` must come before the line using `PROJDIR`. Otherwise, `PROJDIR` will not yet be defined when we use it in the `PYTHON_DIR` definition.
