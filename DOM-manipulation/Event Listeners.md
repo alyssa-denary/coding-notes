@@ -15,6 +15,9 @@ document
 });
 ```
 	- Prints to the console whenever user clicks away
+Good to use for [Checkboxes](
+[[input-element#Checkboxes - multiselect]])
+
 ![[Screen Shot 2022-11-15 at 10.38.51 AM.png]]
 
 ## Input
@@ -33,6 +36,7 @@ document
 	- Note only difference in js is event type. 
 	- Prints to console whenever any char change occurs/ each state the input was in
 	- Much more useful for 99% of cases
+
 ![[Screen Shot 2022-11-15 at 10.37.18 AM.png]]
 
 
