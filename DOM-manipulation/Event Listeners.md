@@ -1,10 +1,21 @@
+## Submit
+```html
+<form id="note-form">
+	<input type="text" placeholder="Write note here" required />
+	<button>Create note</button>
+</form>
+```
+- Ideal event listener for when a [[form-element]] is submitted
+
+## Click 
+
+
 ## Change
 	- In reference to an input html element, a "change" event listener updates changes to the input element text whenever a user clicks away/removes focus from the input field
 ```html
-<form>
-	<input id="note-input" placeholder="Write note here" required />
-	<button class="note-submit" type="submit">Create note</button>
-</form>
+<label>
+	<input id="hide-all" type="checkbox"/> Hide all
+	</label>
 ```
 
 ```js
@@ -14,8 +25,8 @@ document
 	console.log(e.target.value);
 });
 ```
-	- Prints to the console whenever user clicks away
-Good to use for [Checkboxes](
+- Prints to the console whenever user clicks away
+- Good to use for [Checkboxes](
 [[input-element#Checkboxes - multiselect]])
 
 ![[Screen Shot 2022-11-15 at 10.38.51 AM.png]]
