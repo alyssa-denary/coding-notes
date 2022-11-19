@@ -86,6 +86,7 @@ document.querySelector('#delivery').addEventListener('change', function (e) { co
 
 ### Value Attributes:
 - Value attribute: Need to have value assigned to have useful data show up at the action page. Otherwise, just set to indoor-outdoor:on, & user selection is not clear/specified. Note that text input fields within forms have value assigned at submission of the form based on user typed input
+- For [select](select-element) elements and options that are used as dropdown selections: value of the select element depends on the option that was clicked. If the option has a value attribute set, than that attribute’s value will be used. If the option does not have a value, than the option text will be used. 
 
 ### Checked Attribute
  Checked attribute: no assigned value, sets default selection
