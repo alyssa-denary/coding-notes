@@ -51,11 +51,6 @@
 </form>
 ```
 - Radio Buttons allow users to **single select** an option
-	- Name attribute: For radio buttons, if you only want one option to be able to be selected at a time, these radio buttons must have the same name. Need name assigned to save data from text input as well.
-	- Value attribute: Need to have value assigned to have useful data show up at the action page. Otherwise, just set to indoor-outdoor:on, & user selection is not clear/specified. Note that text input fields within forms have value assigned at submission of the form based on user typed input
-	- 
-	- Legend element: Acts as a caption for the content in the `fieldset` element. It gives users context about what they should enter into that part of the form.
-	- Checked attribute: no assigned value, sets default selection
 #### Checkboxes
 <form id="cat-personality">
 	<fieldset>
@@ -77,7 +72,7 @@
 ```
 - Checkboxes allow users to **multiselect** options.
 - Note other aspects shown in HTML above:
-	- [Fieldset](fieldset-element) with legend
+	- [Fieldset](fieldset-element) with [legend](legend-element)
 	- Labels referencing input’s id (note this is an example of why an input would maintain an id even though it is nested within a form
 - & Interactivity: best to use with [Change event listeners](../DOM-manipulation/event-listeners#Change), and note that for checkboxes, you target `e.target.checked` (shown below)
 ```js
@@ -85,8 +80,10 @@ document.querySelector('#delivery').addEventListener('change', function (e) { co
 ```
 
 ### Name Attributes:
- - Name attribute: For [Radio] buttons, if you only want one option to be able to be selected at a time, these radio buttons must have the same name. Need name assigned to save data from text input as well.
+ - Name attribute: For [radio](#Radio) #tofix, if you only want one option to be able to be selected at a time, these radio buttons must have the same name. Need name assigned to save data from text input as well.
 
 ### Value Attributes:
 - Value attribute: Need to have value assigned to have useful data show up at the action page. Otherwise, just set to indoor-outdoor:on, & user selection is not clear/specified. Note that text input fields within forms have value assigned at submission of the form based on user typed input
 
+### Checked Attribute
+ Checked attribute: no assigned value, sets default selection
