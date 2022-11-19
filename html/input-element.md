@@ -28,9 +28,10 @@
 	<button>Submit</button>
 </form>
 ```
-2. **Updates in real time:** Examples of this could be searching, to have results show in real time as the user enters text. For this, would need to target the input ID, and use a [input](../DOM-manipulation/event-listeners#Input) event listener. 
+2. **Updates in real time:** Examples of this is a search bar, and results show in real time as the user enters text. For this, would need to target the input ID, and use a [input](../DOM-manipulation/event-listeners#Input) event listener. 
+   <label>Search: <input id="cat-search" type="text" placeholder="Type cat to search"> </label>
    ```html
-<label>Search<input id="cat-search" type="text" placeholder="Type cat to search"> </label>
+<label>Search: <input id="cat-search" type="text" placeholder="Type cat to search"> </label>
 ```
 
 #### Radio
@@ -51,6 +52,7 @@
 </form>
 ```
 - Radio Buttons allow users to **single select** an option
+  
 #### Checkboxes
 <form id="cat-personality">
 	<fieldset>
