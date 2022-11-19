@@ -27,17 +27,14 @@
 	- Fieldset element: Used to group related inputs and labels together in a web form (note is a block level element)
 	- Legend element: Acts as a caption for the content in the `fieldset` element. It gives users context about what they should enter into that part of the form.
 	- Checked attribute: no assigned value, sets default selection
-#### Checkboxes - multiselect
+#### Checkboxes
 ```html
 <fieldset>
-
-<legend>What's your cat's personality?</legend>
-
-<input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
-
-<input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
-
-<input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
-
+	<legend>What's your cat's personality?</legend>
+	<input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+	<input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+	<input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
 </fieldset>
 ```
+- Allows users to **multiselect** options
+- Interactivity: best to use with [Change event listeners](../DOM-manipulation/event-listeners#Change)

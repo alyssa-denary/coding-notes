@@ -26,8 +26,7 @@ document
 });
 ```
 - Prints to the console whenever user clicks away
-- Good to use for [Checkboxes](
-[[input-element#Checkboxes - multiselect]])
+- Good to use for [Checkboxes](../html/input-element#Checkboxes) and [Dropdowns](../html/select-element#Dropdowns)
 
 ![[Screen Shot 2022-11-15 at 10.38.51 AM.png]]
 
