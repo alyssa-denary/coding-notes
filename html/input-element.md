@@ -1,7 +1,7 @@
 ## Input Element
 ```html
 <form action="where you want the data to go">
-	<input type="search, password, text, email, radio, checkbox, file, submit" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
+	<input type="search, password, text, email, radio, checkbox, number, file, submit" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
 	<label><input type="radio">Radio Button</label> 
 	<!-- Label used to wrap input type and associate it with the corresponding text -->
 	<input id="loving" type="checkbox"> <label for="loving"> Loving </label>
@@ -100,6 +100,12 @@ Certain `type` attribute values come with built-in form validation. For example,
 ```js
 document.querySelector('#delivery').addEventListener('change', function (e) { console.log(e.target.checked) });
 ```
+
+#### Number
+#refactor 
+Add another `label` after the first, with the text `Input your age (years):` . Then, nest an `input` with the `type` of `number`.
+
+Next, add a `min` attribute to the `input` with a value of `13` because users under the age of 13 should not register. Also, users probably will not be over the age of 120; add a `max` attribute with a value of `120`.
 
 #### File
 #refactor 
