@@ -1,7 +1,7 @@
 ## Input Element
 ```html
 <form action="where you want the data to go">
-	<input type="search, text, password radio, checkbox" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
+	<input type="search, password, text, email, radio, checkbox, file, submit" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
 	<label><input type="radio">Radio Button</label> 
 	<!-- Label used to wrap input type and associate it with the corresponding text -->
 	<input id="loving" type="checkbox"> <label for="loving"> Loving </label>
@@ -10,10 +10,26 @@
 ```
 
 ### Type attributes:
+#### Email
+#add
+Certain `type` attribute values come with built-in form validation. For example, `type="email"` requires that the value be a valid email address.
+
 #### Password: Hides text while typed with dots
 ```html
-
+<label for="new-password">Create a New Password: <input id="new-password" type="password" minlength=8 required /></label>
 ```
+#refactor 
+- custom validation: 
+Add custom validation to the password `input` element, by adding a `minlength` attribute with a value of `8`. Doing so prevents inputs of less than 8 characters being submitted.
+- With `type="password"` you can use the `pattern` attribute to define a regular expression that the password must match to be considered valid.
+
+Add a `pattern` attribute to the password `input` element to require the input match: `[a-z0-5]{8,}`
+
+The above is a regular expression which matches eight or more lowercase letters or the digits `0` to `5`. Then, remove the `minlength` attribute, and try it out.
+```html
+<label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+```
+
 #### Text
 - Text input allows users to enter text 
 - & Interactivity: Two main ways of interacting with text inputs:
@@ -33,6 +49,10 @@
    ```html
 <label>Search: <input id="cat-search" type="text" placeholder="Type cat to search"> </label>
 ```
+
+#### Email
+#add
+Certain `type` attribute values come with built-in form validation. For example, `type="email"` requires that the value be a valid email address.
 
 #### Radio
 <form action="http://www.catphotoapp.com">
@@ -81,6 +101,19 @@
 document.querySelector('#delivery').addEventListener('change', function (e) { console.log(e.target.checked) });
 ```
 
+#### File
+#refactor 
+Moving on to the final `fieldset`. What if you wanted to allow a user to upload a profile picture?
+
+Well, the `input` type `file` allows just that. Add a `label` with the text `Upload a profile picture:` , and add an `input` accepting a file upload.
+
+#### Submit
+<input type="submit" value="Submit" />
+```html
+<input type="submit" value="Submit" />
+```
+- Another way to create a submit button that submits a form
+
 ### Name Attributes:
  - Name attribute: For [radio](#Radio) #tofix, if you only want one option to be able to be selected at a time, these radio buttons must have the same name. Need name assigned to save data from text input as well.
 
@@ -90,3 +123,8 @@ document.querySelector('#delivery').addEventListener('change', function (e) { co
 
 ### Checked Attribute
  Checked attribute: no assigned value, sets default selection
+
+
+
+
+
