@@ -55,3 +55,8 @@ Forms with DOM manipulation:
 	  e.target.elements.newNote.value = “”
 - Search form:
 	- Does not need to be in a form  because it is updating in real time and not being “submitted” (?) #questions 
+
+#refactor 
+With form submissions, it is useful, and good practice, to provide each submittable element with a `name` attribute. This attribute is used to identify the element in the form submission.
+
+Give each submittable element a unique `name` attribute of your choosing, except for the two `radio` inputs.
