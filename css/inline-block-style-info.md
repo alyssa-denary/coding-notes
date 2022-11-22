@@ -16,4 +16,18 @@ width: 60vw;
 ```
 - To center use auto margins left and right
 - center text can use text-align: center
-- 
+
+`width`: `unset`; 
+unsets previously set width, useful if undoing previously set width for a class
+
+```css
+.inline {
+
+width: unset;
+
+margin: 0 0.5em 0 0;
+
+vertical-align: middle;
+
+}
+```
