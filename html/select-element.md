@@ -1,4 +1,9 @@
 ## Dropdowns
+<select id="filter-by">
+	<option value="byEdited">Sort by last edited</option>
+	<option value="byRecent">Sort by recently created</option>
+	<option value="byAlphabetical">Sort alphabetically</option>
+</select>
 ```html
 <select id="filter-by">
 	<option value="byEdited">Sort by last edited</option>
