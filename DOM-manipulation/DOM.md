@@ -37,4 +37,18 @@ document.querySelector("CSS-selector").innerHTML = ""
 #### Adding a new element: createElement() method
 	- Argument: type of element trying to create
 	- Returns: DOM representation/JS object of new element
-	- 
+
+### Getters & Setters
+#questions 
+What’s the difference between: 
+```js
+const newArticle = document.createElement("article");
+newArticle.textContent = `${obj.title}: ${obj.body}`;
+newArticle.className = "note";
+```
+and
+```js
+const newArticle = document.createElement("article");
+newArticle.textContent = `${obj.title}: ${obj.body}`;
+newArticle.setAttribute(class: "note");
+```
