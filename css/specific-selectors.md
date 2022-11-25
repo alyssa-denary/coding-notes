@@ -16,3 +16,16 @@ input[name="password"]
 ```
 
 The above selects `input` elements with a `name` attribute value of `password`.
+
+
+### pseudo-selectors
+
+The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+```css
+div:not(#example) {
+  color: red;
+}
+```
+
+The above selects all `div` elements without an `id` of `example`.
