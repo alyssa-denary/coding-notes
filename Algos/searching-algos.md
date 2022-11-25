@@ -11,3 +11,4 @@
 	- then check middle of new data
 		- etc. 
 - Performs at O(log n) time
+
