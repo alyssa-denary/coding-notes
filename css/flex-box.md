@@ -18,6 +18,12 @@ Try the different values to see how they affect the layout.
 The `flex-wrap` property determines how your flex items behave when the flex container is too small. Setting it to `wrap` will allow the items to wrap to the next row or column. `nowrap` (default) will prevent your items from wrapping and shrink them if needed.
 
 The `justify-content` property determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them.
+- flex-start
+- center
+- space-around
+- space-between
+- space-evenly
+- flex-end
 
 The `align-items` property positions the flex content along the cross axis. In this case, with your `flex-direction` set to `row`, your cross axis would be vertical.
 

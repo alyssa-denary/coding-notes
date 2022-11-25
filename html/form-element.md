@@ -1,6 +1,6 @@
 ## Form Element
 ```html
-<form action="where you want the data to go">
+<form method="post" action="where you want the data to go">
 	<input type="" placeholder="" required>
 	<label><input type="radio">Radio Button</label> 
 	<!-- Label used to wrap input type and associate it with the corresponding text -->
@@ -8,7 +8,7 @@
 	<!-- May also associate text with input by using a for attribute with the same value as the input's id -->
 </form>
 ```
-- action attribute #refactor 
+- action attribute #add 
 - The `method` attribute specifies how to send form-data to the URL specified in the `action` attribute. The form-data can be sent via a `GET` request as URL parameters (with `method="get"`) or via a `POST` request as data in the request body (with `method="post"`).
 
 ### Nested elements:

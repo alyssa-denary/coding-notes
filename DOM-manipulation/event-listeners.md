@@ -49,6 +49,29 @@ document
 
 ![[Screen Shot 2022-11-15 at 10.37.18 AM.png]]
 
+## Storage
+	- Special event listener for global variable changes in storage
+	- e with storage includes a few specific properties: 
+		- key
+		- newValue
+		- oldValue
+```js
+window.addEventListener("storage", (e) => {
+	// Checks that the key matches intended storage listener
+	if (e.key === "notes") {   // Or other targeted key name
+		notes = JSON.parse(e.newValue);  // save parsed info into variable
+		note = notes.find((el) => el.id === noteID);  // finds specific note
 
+		// Sends users back to homepage if note does not exist or was deleted
+		if (note === undefined) { 
+			location.assign("index.html");
+		}
+
+		// Updates title and body values to newest saved info
+		noteTitle.value = note.title;
+		noteBody.value = note.body;
+	}
+});
+```
 
 
