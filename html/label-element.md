@@ -12,6 +12,7 @@
 - can accomplish in 2 ways: 
 	- wrapping around input
 	- using for attribute and giving it the same string as an input’s id (useful if positioning label further away from the input(?)) #questions 
+	- Although not required for `label` elements with a nested `input`, it is still best-practice to explicitly link a `label` with its corresponding `input` element.
 
 #refactor 
 The `rem` unit stands for root `em`, and is relative to the font size of the `html` element.

@@ -54,3 +54,5 @@ border: 0;
 ```
 
 Use the above to define the `sr-only` class.
+
+Although not required for `label` elements with a nested `input`, it is still best-practice to explicitly link a `label` with its corresponding `input` element.

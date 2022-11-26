@@ -20,7 +20,7 @@ The above selects `input` elements with a `name` attribute value of `password`.
 
 ### pseudo-selectors
 
-The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.
+- The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.
 
 ```css
 div:not(#example) {
@@ -29,3 +29,10 @@ div:not(#example) {
 ```
 
 The above selects all `div` elements without an `id` of `example`.
+
+- The :before pseudo-selector #add 
+```css
+p:before {
+	content: "Question #";
+}
+```
