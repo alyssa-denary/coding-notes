@@ -85,3 +85,17 @@ The `@media` at-rule has a media feature called `prefers-reduced-motion` to set 
 ---
 
 Wrap the style rule that sets `scroll-behavior: smooth` within an `@media` at-rule with the media feature `prefers-reduced-motion` having `no-preference` set as the value.
+
+
+### Keyboard shortcuts
+Finally, the navigation accessibility can be improved by providing keyboard shortcuts.
+
+The `accesskey` attribute accepts a space-separated list of access keys. For example:
+
+```html
+<button type="submit" accesskey="s">Submit</button>
+```
+
+Give each of the navigation links a single-letter access key.
+
+_Note: It is not always advised to use access keys, but they can be useful_
