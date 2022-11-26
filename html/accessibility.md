@@ -64,3 +64,24 @@ The `address` element does not have to contain a physical geographical location.
 On the topic of visual accessibility, contrast between elements is a key factor. For example, the contrast between the text and the background of a heading should be at least 4.5:1.
 
 Change the font color of all the anchor elements within the list elements to something with a contrast ratio of at least 7:1.
+
+
+### Reducing motion
+Certain types of motion-based animations can cause discomfort for some users. In particular, people with vestibular disorders have sensitivity to certain motion triggers.
+
+The `@media` at-rule has a media feature called `prefers-reduced-motion` to set CSS based on the user's preferences. It can take one of the following values:
+
+-   `reduce`
+-   `no-preference`
+
+```css
+@media (feature: value) {
+  selector {
+    styles
+  }
+}
+```
+
+---
+
+Wrap the style rule that sets `scroll-behavior: smooth` within an `@media` at-rule with the media feature `prefers-reduced-motion` having `no-preference` set as the value.
