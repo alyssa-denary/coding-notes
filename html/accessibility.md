@@ -56,3 +56,11 @@ border: 0;
 Use the above to define the `sr-only` class.
 
 Although not required for `label` elements with a nested `input`, it is still best-practice to explicitly link a `label` with its corresponding `input` element.
+
+Two final semantic HTML elements for this project are the `footer` and `address` elements. The `footer` element is a container for a collection of content that is related to the page, and the `address` element is a container for contact information for the author of the page.
+The `address` element does not have to contain a physical geographical location. It can be used to provide a link to the subject.
+
+### Visual contrast
+On the topic of visual accessibility, contrast between elements is a key factor. For example, the contrast between the text and the background of a heading should be at least 4.5:1.
+
+Change the font color of all the anchor elements within the list elements to something with a contrast ratio of at least 7:1.

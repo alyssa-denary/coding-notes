@@ -5,14 +5,15 @@
 	<input type="search, text, password radio, checkbox" name="needed for processing data when it's sent to the form action location" placeholder="text that shows in the input field" required>
 	<label><input type="radio">Radio Button</label> 
 	<!-- Label used to wrap input type and associate it with the corresponding text -->
-	<input id="loving" type="checkbox"> <label for="loving"> Loving </label>
+	<input id="loving" name="loving" type="checkbox"> <label for="loving"> Loving </label>
 	<!-- May also associate text with input by using a for attribute with the same value as the input's id -->
 </form>
 ```
 - can accomplish in 2 ways: 
 	- wrapping around input
 	- using for attribute and giving it the same string as an input’s id (useful if positioning label further away from the input(?)) #questions 
-	- Although not required for `label` elements with a nested `input`, it is still best-practice to explicitly link a `label` with its corresponding `input` element.
+	- Although not required for `label` elements with a nested `input`, it is still best-practice to explicitly link a `label` with its corresponding `input`, `textarea`, or `select` element. 
+	- & Also give the corresponding `input`, `textarea`, or `select` element’s a matching name attribute to the id and the label’s for attribute.
 
 #refactor 
 The `rem` unit stands for root `em`, and is relative to the font size of the `html` element.
