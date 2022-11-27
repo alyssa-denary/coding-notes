@@ -10,4 +10,12 @@ In the below example the padding is applied to the `.card` class when the viewpo
 }
 ```
 
-Add a media query that will be applied when the viewport is `768px` wide and below.
+Logical operators can be used to construct more complex media queries. The `and` logical operator is used to query two media conditions.
+
+For example, a media query that targets a display width between 500px and 1000px would be:
+
+```css
+@media (min-width: 500px) and (max-width: 1000px){
+
+}
+```
