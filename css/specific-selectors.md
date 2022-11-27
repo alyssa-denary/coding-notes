@@ -44,6 +44,7 @@ p:before {
 - The `:first-of-type` pseudo-selector is used to target the first element that matches the selector. 
 - The `:last-of-type` pseudo-selector does the exact opposite - it targets the last element that matches the selector.
 - The `:nth-of-type()` pseudo-selector is used to target specific elements based on their order among siblings of the same type
+- The `::before` selector creates a pseudo-element which is the first child of the selected element, while the `::after` selector creates a pseudo-element which is the last child of the selected element. 
 ```css
 tr.total td:nth-of-type(3) {
 	padding-right: 0.5rem;
