@@ -5,3 +5,4 @@
 }
 ```
 
+- opposed to font-weight: normal;

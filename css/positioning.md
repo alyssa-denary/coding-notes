@@ -1,4 +1,4 @@
-## Fixing items to page
+#add  
 ```css
 .selector {
 	position: fixed;
@@ -14,7 +14,19 @@
 }
 ```
 
+```css
+.selector {
+	position: relative;
+}
+```
 
+```css
+.selector {
+	position: absolute;
+	top: -2.25rem;
+	left: 0.5rem;
+}
+```
 
 ## Calc function
 #refactor 

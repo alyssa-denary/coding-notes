@@ -40,4 +40,28 @@ p:before {
 
 - The `:first-of-type` pseudo-selector is used to target the first element that matches the selector. 
 - The `:last-of-type` pseudo-selector does the exact opposite - it targets the last element that matches the selector.
-- 
+- The `:not()` pseudo-selector is used to target all elements that do not match the selector - in this case, any of your `span` elements that do not have the `sr-only` class. This ensures that your earlier rules for the `span[class~="sr-only"]` selector are not overwritten.
+	- ex: `span:not(.sr-only)`
+
+
+
+
+### ! Important Keyword
+Rather than having to constantly double-check you are not overwriting your earlier properties, you can use the `!important` keyword to ensure these properties are always applied, regardless of order or specificity.
+- example:
+```css
+span[class~="sr-only"] {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	clip-path: inset(50%) !important;
+	-webkit-clip-path: inset(50%) !important;
+	height: 1px !important;
+	width: 1px !important;
+	position: absolute !important;
+	overflow: hidden !important;
+	white-space: nowrap !important;
+	padding: 0 !important;
+	margin: -1px !important;
+}
+```
+
