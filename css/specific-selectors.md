@@ -15,8 +15,9 @@ To style the submit button, you can use an _attribute_ selector, which selects a
 input[name="password"]
 ```
 
-The above selects `input` elements with a `name` attribute value of `password`.
+- The above selects `input` elements with a `name` attribute value of `password`.
 
+- The `span[class]` syntax will target any `span` element that has a `class` attribute set, regardless of the attribute's value.
 
 ### pseudo-selectors
 
@@ -37,3 +38,6 @@ p:before {
 }
 ```
 
+- The `:first-of-type` pseudo-selector is used to target the first element that matches the selector. 
+- The `:last-of-type` pseudo-selector does the exact opposite - it targets the last element that matches the selector.
+- 
