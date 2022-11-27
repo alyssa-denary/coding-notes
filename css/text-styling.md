@@ -6,3 +6,10 @@
 ```
 
 - opposed to font-weight: normal;
+
+### Italic text
+```css
+td[class="current"] {
+	font-style: italic;
+}
+```
