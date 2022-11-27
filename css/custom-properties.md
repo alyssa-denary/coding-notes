@@ -1,4 +1,3 @@
-
 ### CSS custom properties:
 - Add for every single color? including places that use standard black/white, etc. ? 
 - Generally not recommended to use standard/built in colors, as these are arbitrarily chosen
