@@ -43,3 +43,7 @@ console.log(myDate.getFullYear()); // 2022
 ```
 - Pass in the numerical representation into the Date function.
 - Now you can access helpful methods on the Date object to pull out day, month, year, hour, minutes, etc. 
+
+- & Takeaway: This is cumbersome and difficult to display and work with dates.
+- & Instead, most common to work with a library for date/time: called Moment 
+
