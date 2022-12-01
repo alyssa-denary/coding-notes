@@ -30,6 +30,8 @@ Typically, HTML is rendered in a top-down manner. Elements at the top of the cod
 ```
 - An `absolute` position takes the element out of that top-down document flow and allows you to adjust it relative to its container.
 
+Other resource for understanding: https://css-tricks.com/almanac/properties/p/position/
+
 ## z-index
 The `z-index` property is used to create "layers" for your HTML elements. If you are familiar with image editing tools, you may have worked with layers before. This is a similar concept.
 
