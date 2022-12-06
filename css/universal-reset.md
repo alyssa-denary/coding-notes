@@ -1,7 +1,7 @@
 - You can add this a reset to pretty much every project 
 ```css
 *, *::before, *::after {
-  box-sizing: border-box;
+  box-sizing: border-box; 
   margin: 0;
   padding: 0;
 }
@@ -10,6 +10,8 @@ body {
   /** things that are universal to THIS app, but not necessarily others like font, font-size */
 }
 ```
+
+- Border box makes it so the border you added doesn't add any size to your elements.
 
 Browsers can apply default margin and padding values to specific elements. To make sure your piano looks correct, you need to reset the box model.
 
