@@ -1,4 +1,6 @@
-
+- pseudo-classes are special states of a selector.
+	- hover, link, visited checkbox clicked, etc. 
+	- used to style elements under a special conditions
 - The `:not` pseudo-selector can be used to select all elements that do not match the given CSS rule.
 
 ```css
