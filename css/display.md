@@ -1,5 +1,6 @@
 ### Inline-block
 - Only takes up the width of the content unless width is explicitly stated
+- Treated as if it was text - to align inline-block elements, can just set the text-align property of the parent element
 - So in below example, text-align property is not visibly different 
 ```html
 <article class="item">
