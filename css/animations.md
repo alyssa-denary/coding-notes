@@ -51,6 +51,7 @@
 	animation-iteration-count: 3;
 	animation-delay: 3s;
 	animation-timing-function: ease-in; /* Look at MDN for more examples */
+	animation-fill-mode: backwards; /* applies first frame before animation starts, look at MDN for other examples */
 }
 
 @keyframes moveInLeft {
