@@ -56,11 +56,11 @@
 @keyframes moveInLeft {
 	0% {
 		opacity: 0;
-		transform: translate(-100px);
+		transform: translateX(-100px);
 	}
 
 	80% {
-		transform: translate(10px);
+		transform: translateX(10px);
 	}
 
 	100% {
@@ -72,7 +72,7 @@
 
 - Best to only animate two properties, as these are optimized for the browser:
 		- Opacity
-		- Transform (can do a whole lot with transform)
+		- [Transform](transform) (can do a whole lot with transform)
 
 ### animation shorthand
 ```css
