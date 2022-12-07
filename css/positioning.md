@@ -29,7 +29,10 @@ Typically, HTML is rendered in a top-down manner. Elements at the top of the cod
 }
 ```
 - An `absolute` position takes the element out of that top-down document flow and allows you to adjust it relative to its container.
-- For top, left, etc. positioning, count starts from parent element but **parent element must be set to relative** #questions parent element set to relative? 
+- For top, left, etc. positioning, count starts from parent element
+	- above example would be:
+		- 2.25rem up from the parent element
+		- 0.5rem to the right from the parent element
 Other resource for understanding: https://css-tricks.com/almanac/properties/p/position/
 
 ### transform
