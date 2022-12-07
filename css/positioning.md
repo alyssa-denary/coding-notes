@@ -29,8 +29,22 @@ Typically, HTML is rendered in a top-down manner. Elements at the top of the cod
 }
 ```
 - An `absolute` position takes the element out of that top-down document flow and allows you to adjust it relative to its container.
-
+- For top, left, etc. positioning, count starts from parent element but **parent element must be set to relative** #questions parent element set to relative? 
 Other resource for understanding: https://css-tricks.com/almanac/properties/p/position/
+
+### transform
+- To further adjust the positioning of your selected element, you can translate the object. 
+```css
+.selector {
+	position: absolute;
+	top: -2.25rem;
+	left: 0.5rem;
+	transform: translate(x, y);
+}
+```
+- This moves the object relative to itself. 
+- X direction goes  - (left), + (right) 
+- Y direction goes  - (up), + (down)
 
 ## z-index
 The `z-index` property is used to create "layers" for your HTML elements. If you are familiar with image editing tools, you may have worked with layers before. This is a similar concept.
