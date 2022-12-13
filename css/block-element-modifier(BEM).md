@@ -1,10 +1,8 @@
-## BEM naming
-block element modifier
-
-always do with just one class selector
+## Nesting
+- always do with just one class selector
 - with each just having one class selector, weren’t really seeing that much nesting
 	- BUT: 
-		- can nest with &
+		- can nest with & operator
 ```scss
 .header {
 	// header css
