@@ -35,3 +35,5 @@
 ```
 - To execute this compilation, will then need to execute this command while <u> in the same folder as your package.json file</u> 
 	- `npm run *script:name*`  so for example above `npm run compile:sass`
+
+
