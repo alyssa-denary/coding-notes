@@ -3,25 +3,39 @@
 - partials/files typically start with underscore _
 - base folder	
 	- - `_base`
+		- universal reset
+			- margin
+			- padding
+			- box-sizing inherit
+		- html
+			- font-size: here and not in typography cause determines page proportions
+		- body
+			- box-sizing
+			- everything typography related should go in typography file
 	- `_utilities`
 	- `_typography`
+		- body
+			- all typography related properties
+		- Natours project example: `_heading-primary` (could argue is component, but just gauge based on what seems most intuitive)
 	- `_animations`
+		- keyframes
 - abstracts folder
 	- only going to put code in this folder that is <u>not</u> going to output any CSS
 	- `_variables`
+		- color variable declarations
 	- `_mixins`
 	- `_functions`
 - components folder
 	- reusable building blocks that make up website/apps
 	- should be completely independent, can be used anywhere in the page
 	- held together by the layout of the page
-	- 
+	- `_button`
 - layout folder
 	- holds all of the components together
 	- for each piece of the global layout of the entire project
 	- should work everywhere and on all pages - for specific styles for specific page - use pages folder
-	- global header
-	- global footer
+	- `_header`
+	- `_footer`
 	- etc.
 - pages folder
 	- specific styles for specific pages live in this folder
