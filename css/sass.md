@@ -48,7 +48,7 @@
 - Variables: for reusable values such as colors, font-sizes, spacing, etc. 
 - Nesting: to nest selectors inside of one another, allowing us to write less code.
 - Operators: for mathematical operations right inside of CSS
-- Partials and Imports
+- Partials and Imports: to write CSS in different files and import them all into one single file
 - Mixins
 - Functions
 - Extends
