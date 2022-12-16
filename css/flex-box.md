@@ -44,3 +44,12 @@ Example:
 }
 ```
 
+
+## Mobile-first vs Desktop-first
+### Desktop-first
+- Start by designing for larger screens
+- Write media queries for smaller screens
+### Mobile-first
+- Start by desigining for smaller screens
+- Write media queries for larger screens
+- Forces distilling down a website to essential components, smaller and faster final product
