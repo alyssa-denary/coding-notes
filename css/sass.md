@@ -43,16 +43,15 @@
 - To execute this compilation, will then need to execute this command while <u> in the same folder as your package.json file</u> 
 	- `npm run *script:name*`  so for example above `npm run compile:sass`
 
-### Main features of Sass #refactor 
-![[preprocessers-1670596784992.jpeg]]
-- Variables: for reusable values such as colors, font-sizes, spacing, etc. 
-- Nesting: to nest selectors inside of one another, allowing us to write less code.
-- Operators: for mathematical operations right inside of CSS
-- Partials and Imports: to write CSS in different files and import them all into one single file
-- Mixins: to write reusable pieces of CSS code
-- Functions: similar to mixins, with the difference that they produce a value that can than be used
-- Extends: to make different selectors inherit declarations that are common to all of them
-- Control Directives: for writing complex code using conditionals and loops 
+### Main features of Sass 
+- **Variables:** for reusable values such as colors, font-sizes, spacing, etc. 
+- **Nesting:** to nest selectors inside of one another, allowing us to write less code.
+- **Operators:** for mathematical operations right inside of CSS
+- **Partials and Imports:** to write CSS in different files and import them all into one single file
+- **Mixins:** to write reusable pieces of CSS code
+- **Functions:** similar to mixins, with the difference that they produce a value that can than be used
+- **Extends:** to make different selectors inherit declarations that are common to all of them
+- **Control Directives:** for writing complex code using conditionals and loops 
 
 ### Syntax
 - Sass - #add 
