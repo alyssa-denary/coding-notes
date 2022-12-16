@@ -50,7 +50,7 @@
 - Operators: for mathematical operations right inside of CSS
 - Partials and Imports: to write CSS in different files and import them all into one single file
 - Mixins: to write reusable pieces of CSS code
-- Functions
+- Functions: similar to mixins, with the difference that they produce a value that can than be used
 - Extends
 - Control Directives
 
