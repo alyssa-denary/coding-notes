@@ -44,7 +44,8 @@
 	- `npm run *script:name*`  so for example above `npm run compile:sass`
 
 ### Main features of Sass #refactor 
-- Variables
+![[preprocessers-1670596784992.jpeg]]
+- Variables: for reusable values such as colors, font-sizes, spacing, etc. 
 - Nesting
 - Operators
 - Partials and Imports
@@ -52,10 +53,9 @@
 - Functions
 - Extends
 - Control Directives
-- ![[preprocessers-1670596784992.jpeg]]
 
 ### Syntax
-- Sass -
+- Sass - #add 
 - SCSS - looks like CSS syntax, jonas’ preference
 
 ### Common use cases
@@ -76,7 +76,6 @@ $color-primary: #f9ed69; //yellow color
 - Functions for modifying colors:
 	- darken()
 	- lighten()
-	- 
 #### Nesting
 - Instead of:
 ```css
