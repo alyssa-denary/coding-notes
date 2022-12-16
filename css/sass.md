@@ -49,7 +49,7 @@
 - Nesting: to nest selectors inside of one another, allowing us to write less code.
 - Operators: for mathematical operations right inside of CSS
 - Partials and Imports: to write CSS in different files and import them all into one single file
-- Mixins
+- Mixins: to write reusable pieces of CSS code
 - Functions
 - Extends
 - Control Directives
