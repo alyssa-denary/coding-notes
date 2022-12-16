@@ -60,3 +60,11 @@ Example:
 
 - & Takeaway: Keep in mind the purpose of the website, and design with that in mind
 - & Always design / keep in mind both desktop and mobile versions, regardless of strategy
+
+
+## Breakpoints
+- Three major ways to choose breakpoints
+	- Bad: Choosing ipad/iphone (or any specific device) widths to determine breakpoints
+	- Good: Use most used devices widths to determine breakpoints
+		- Can look up this data on StatCounter
+	- Perfect: Ignore devices altogether and only worry about your content and design. Put breakpoints wherever your design starts to look weird. 
