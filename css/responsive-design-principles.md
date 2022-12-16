@@ -19,6 +19,21 @@ Cite: Jonas advanced css udemy course
 ## 4. Media queries
 - To change CSS styles on certain viewport widths
 	- (also called breakpoints)
+### Mobile-first vs Desktop-first
+#### Desktop-first
+- Start by designing for larger screens
+- Write media queries for smaller screens
+- Advantages: 
+- Disadvantages: May have extra unneeded stuff
+#### Mobile-first
+- Start by desigining for smaller screens
+- Write media queries for larger screens
+- Forces distilling down a website to essential components, smaller and faster final product
+- Advantages: Many many users accessing sites via phones/smaller screens
+- Distadvantages: Desktop versions in this strategy may feel stripped down
+
+- & Takeaway: Keep in mind the purpose of the website, and design with that in mind
+- & Always design / keep in mind both desktop and mobile versions, regardless of strategy
 
 
 
