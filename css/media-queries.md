@@ -1,5 +1,7 @@
 The `@media` at-rule, also known as a media query, is used to conditionally apply CSS. Media queries are commonly used to apply CSS based on the viewport width using the `max-width` and `min-width` properties.
 
+- Always put media queries at the end because they don’t add any specificity or importance, so order matters.
+
 In the below example the padding is applied to the `.card` class when the viewport is `960px` wide and below.
 
 ```css
