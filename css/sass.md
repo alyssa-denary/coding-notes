@@ -46,7 +46,7 @@
 ### Main features of Sass #refactor 
 ![[preprocessers-1670596784992.jpeg]]
 - Variables: for reusable values such as colors, font-sizes, spacing, etc. 
-- Nesting
+- Nesting: to nest selectors inside of one another, allowing us to write less code.
 - Operators
 - Partials and Imports
 - Mixins
