@@ -52,7 +52,7 @@
 - Mixins: to write reusable pieces of CSS code
 - Functions: similar to mixins, with the difference that they produce a value that can than be used
 - Extends: to make different selectors inherit declarations that are common to all of them
-- Control Directives
+- Control Directives: for writing complex code using conditionals and loops 
 
 ### Syntax
 - Sass - #add 
