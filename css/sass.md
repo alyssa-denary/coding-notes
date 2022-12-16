@@ -51,7 +51,7 @@
 - Partials and Imports: to write CSS in different files and import them all into one single file
 - Mixins: to write reusable pieces of CSS code
 - Functions: similar to mixins, with the difference that they produce a value that can than be used
-- Extends
+- Extends: to make different selectors inherit declarations that are common to all of them
 - Control Directives
 
 ### Syntax
