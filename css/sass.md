@@ -139,7 +139,20 @@ a:link {
 	@include style-link-text($color-text-light);
 }
 ```
-
+##### Mixins and media queries
+- With sass, can also write media query within selector:
+```scss
+.selector  {
+	width: 100%;
+	background-color: $color-white;
+	@media (max-width: 600px) {
+		width: 50%;
+	}
+}
+```
+- BUT, would have to write a query for each selector (whether within each selector or one big query)
+	- Instead, better to write a mixin that will do this work for us
+	- 
 #### Functions
 - To perform calculations to produce a value in CSS. 
 - Declare a function: 
