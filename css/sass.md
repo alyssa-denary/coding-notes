@@ -195,6 +195,7 @@ html {
 }
 ```
 - But still, with this way, you have multiple different mixins for each breakpoint. We want one large mixin with all the breakpoints
+###### If directive
 ```scss
 /* 
 $breakpoint argument choices:
@@ -205,7 +206,9 @@ $breakpoint argument choices:
 */
 
 @mixin respond($breakpoint) {
-
+	@if $breakpoint == phone { 
+		@media (max-width: 600px) { @content };
+	}
 }
 ```
 
