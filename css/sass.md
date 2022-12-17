@@ -193,6 +193,10 @@ html {
 		font-size: 50%;
 	}
 }
+
+body {
+	box-sizing: border-box;
+}
 ```
 - But still, with this way, you have multiple different mixins for each breakpoint. We want one large mixin with all the breakpoints
 ###### If directive
@@ -211,6 +215,15 @@ $breakpoint argument choices:
 	@if $breakpoint == phone { 
 		@media (max-width: 600px) { @content };
 	}
+	@if $breakpoint == tab-port { 
+		@media (max-width: 900px) { @content };
+	}
+	@if $breakpoint == tab-land { 
+		@media (max-width: 1200px) { @content };
+	}
+	@if $breakpoint == big-desktop { 
+		@media (min-width: 1800px) { @content };
+	}
 }
 ```
 
@@ -228,15 +241,28 @@ $breakpoint argument choices:
 html {
 	font-size: 62.5%;
 
-	@include respond(phone) {  // Newest way: One mixin- pass in arg to determine query
+	@include respond(phone) { 
 		font-size: 50%;
 	}
 
-	@media (max-width: 900px) {  // Old way: Tablet query 
-		font-size: 50%;
+	@include respond(tab-port) { 
+		font-size: 60%;
+	}
+
+	@include respond(tab-land) {  
+		font-size: 70%;
+	}
+
+	@include respond(big-desktop) { 
+		font-size: 80%;
 	}
 }
+
+body {
+	box-sizing: border-box;
+}
 ```
+
 #### Functions
 - To perform calculations to produce a value in CSS. 
 - Declare a function: 
