@@ -197,6 +197,8 @@ html {
 - But still, with this way, you have multiple different mixins for each breakpoint. We want one large mixin with all the breakpoints
 ###### If directive
 ```scss
+/* Example abstracts/_mixins.scss file */
+
 /* 
 $breakpoint argument choices:
 - phone
@@ -212,6 +214,29 @@ $breakpoint argument choices:
 }
 ```
 
+```scss
+/* Example base/_base.scss file */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+
+	@include respond(phone) {  // Newest way: One mixin- pass in arg to determine query
+		font-size: 50%;
+	}
+
+	@media (max-width: 900px) {  // Old way: Tablet query 
+		font-size: 50%;
+	}
+}
+```
 #### Functions
 - To perform calculations to produce a value in CSS. 
 - Declare a function: 
