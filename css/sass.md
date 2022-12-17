@@ -200,8 +200,24 @@ body {
 ```
 - But still, with this way, you have multiple different mixins for each breakpoint. We want one large mixin with all the breakpoints
 ###### If directive
+- Note refactor from media queries using pixels to those using ems
+	- ems must be used instead of rems because those in media query are not affected by the root font-size setting. Instead, they respond to the browser default setting, so we use ems. 
+	- Since 16px is typically the default browser font-size, this was used to calculate ems
+		- $breakpoint - phone: 600/16 = 37.5 em
+		- $breakpoint - tab-port 900/16= 56.25 em
+		- $breakpoint- tab-land 1200/16= 75 em
+		- $breakpoint- big desktop 1800/16= 112.5 em
 ```scss
 /* Example abstracts/_mixins.scss file */
+
+/* 
+Media Query Manager:
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800]: Normal styles apply
+1800 + :  Big desktop
+*/
 
 /* 
 $breakpoint argument choices:
@@ -213,16 +229,16 @@ $breakpoint argument choices:
 
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone { 
-		@media (max-width: 600px) { @content };
+		@media (max-width: 37.5em) { @content };  //600px
 	}
 	@if $breakpoint == tab-port { 
-		@media (max-width: 900px) { @content };
+		@media (max-width: 56.25em) { @content }; //900px
 	}
 	@if $breakpoint == tab-land { 
-		@media (max-width: 1200px) { @content };
+		@media (max-width: 75em) { @content }; //1200px
 	}
 	@if $breakpoint == big-desktop { 
-		@media (min-width: 1800px) { @content };
+		@media (min-width: 112.5em) { @content }; //1800px
 	}
 }
 ```
