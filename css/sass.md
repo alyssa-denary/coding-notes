@@ -194,6 +194,21 @@ html {
 	}
 }
 ```
+- But still, with this way, you have multiple different mixins for each breakpoint. We want one large mixin with all the breakpoints
+```scss
+/* 
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+
+@mixin respond($breakpoint) {
+
+}
+```
+
 #### Functions
 - To perform calculations to produce a value in CSS. 
 - Declare a function: 
