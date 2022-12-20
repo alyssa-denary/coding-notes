@@ -1,3 +1,9 @@
+## Google Font API
+```
+<link src="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap">
+```
+
+## Font Awesome
 FontAwesome is a library of SVG-powered icons, many of which are freely available to use. You will be using some of these icons in this project, so you will need to link the external stylesheet to your HTML.
 ```
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
