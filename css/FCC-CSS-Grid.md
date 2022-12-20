@@ -1,12 +1,4 @@
 #refactor 
-- Google font api
-```
-<link src="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap">
-```
-- Font awesome
-```
-<link src="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-```
 - The `loading` attribute on an `img` element can be set to `lazy` to tell the browser not to fetch the image resource until it is needed (as in, when the user scrolls the image into view). As an additional benefit, lazy loaded elements will not load until the non-lazy elements are loaded - this means users with slow internet connections can view the content of your page without having to wait for the images to load.
     Give your new `img` element a `loading` attribute set to `lazy`.
 - The `Referer` HTTP header contains information about the address or URL of a page that a user might be visiting from. This information can be used in analytics to track how many users from your page visit freecodecamp.org, for example. Setting the `rel` attribute to `noreferrer` omits this information from the HTTP request. Give your `a` element a `rel` attribute set to `noreferrer`.
