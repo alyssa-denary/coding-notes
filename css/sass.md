@@ -279,6 +279,43 @@ body {
 }
 ```
 
+###### Modifying responsiveness
+- Can modify font-size now within each which will now change all other values since we set those based on rem. 
+```scss
+/* Example base/_base.scss file */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+
+	@include respond(phone) { 
+		font-size: 50%;
+	}
+
+	@include respond(tab-port) { 
+		font-size: 50%;  // 1 rem = 8 px, 8/16 = 50%
+	}
+
+	@include respond(tab-land) {  
+		font-size: 56.25%%; // 1 rem = 9px, 9/16 = 56%
+	}
+
+	@include respond(big-desktop) { 
+		font-size: 75%;  // 1 rem = 12px, 12/16 = 75%
+	}
+}
+
+body {
+	box-sizing: border-box;
+}
+```
 #### Functions
 - To perform calculations to produce a value in CSS. 
 - Declare a function: 
