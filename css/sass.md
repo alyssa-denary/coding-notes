@@ -281,6 +281,8 @@ body {
 
 ###### Modifying responsiveness
 - Can modify font-size now within each which will now change all other values since we set those based on rem. 
+- Note that with these media queries, want the larger media queries listed before the smaller ones, otherwise both will conflict, and the larger style will apply because it was listed last. 
+	- Therefore in below example, have tab-land, then tab-port, then phone
 ```scss
 /* Example base/_base.scss file */
 
@@ -294,17 +296,17 @@ body {
 
 html {
 	font-size: 62.5%;
-
-	@include respond(phone) { 
-		font-size: 50%;
+	
+	@include respond(tab-land) {  
+		font-size: 56.25%%; // 1 rem = 9px, 9/16 = 56%
 	}
 
 	@include respond(tab-port) { 
 		font-size: 50%;  // 1 rem = 8 px, 8/16 = 50%
 	}
 
-	@include respond(tab-land) {  
-		font-size: 56.25%%; // 1 rem = 9px, 9/16 = 56%
+	@include respond(phone) { 
+		font-size: 30%; // 1rem = 4.8px
 	}
 
 	@include respond(big-desktop) { 
