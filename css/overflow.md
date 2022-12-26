@@ -1,0 +1,1 @@
+- `overflow` property to `hidden` to hide any scroll bars that appear when something extends past the viewport.
