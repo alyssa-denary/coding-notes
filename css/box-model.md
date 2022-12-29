@@ -38,6 +38,7 @@ box-shadow: 0 0 3px 3px #efb762;
 - transform property: rotates element by specified degrees
 	- negative rotation: counter-clockwise
 	- positive rotations: clockwise
+	- also see [[animations]]
 ```css
 .selector {
 transform: rotate(-0.6deg);
