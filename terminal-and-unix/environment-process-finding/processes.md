@@ -12,3 +12,11 @@
 ![[processes-1672533030446.jpeg]]
 - USER column: username of user who exeucuted the process
 - PID: number that uniquely identifies the process. Very useful for stopping a process
+
+### kill
+- Useful for stopping a process that is unresponsive
+- To stop a process, run `kill` with the PID of the process. 
+```
+kill 26852
+```
+
