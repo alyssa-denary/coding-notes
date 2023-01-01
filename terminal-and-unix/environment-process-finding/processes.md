@@ -20,3 +20,7 @@
 kill 26852
 ```
 
+### `kill` vs  `kill -9`
+- Kill process by default sends a ‘TERM’ signal, but if a process is unresponsive, it may not pick up this signal and may not terminate.
+- The -9 flag turns this into a ‘KILL’ signal, which is non-ignorable. 
+- If using `kill` doesn’t work, try using `kill -9`
