@@ -16,3 +16,7 @@ find . -name "*.html"
 path =  `.`   (indicating all paths)
 expression = `-name “*.html”`     (-name is a primary, with `"*.html"` as it’s pattern argument)
 
+## wildcard characters
+`*`    -any number of characters
+`?`    -one character
+`[]`  -any of the characters inside the brackets
