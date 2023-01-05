@@ -6,8 +6,9 @@ find Downloads
 ```
 - Advanced searches combine:
 1. find
-2. a path
-3. an expression
+2. flags (optional)
+3. a path
+4. an expression
 	1. primaries
 	2. operands
 ```
@@ -22,3 +23,10 @@ expression = `-name “*.html”`     (-name is a primary, with `"*.html"` as it
 `[]`  -any of the characters inside the brackets
 
 ## grep
+- Helpful for finding specific values in a string or text file
+- Contains:
+1. grep
+2. flags (optional)
+3. pattern
+4. filename
+- Can also use with piping and `cat`
