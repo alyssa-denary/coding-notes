@@ -20,3 +20,5 @@ expression = `-name “*.html”`     (-name is a primary, with `"*.html"` as it
 `*`    -any number of characters
 `?`    -one character
 `[]`  -any of the characters inside the brackets
+
+## grep
