@@ -33,7 +33,7 @@
 	- baseline  - aligns text within items along a baseline
 #### `align-content`
 - only applies when there is more than 1 row of flex content
-- controls how the rows are aligned along the cross axis, has 6 possible values:
+-  aligns rows along the cross axis, has 6 possible values:
 	- stretch (default)
 	- flex-start
 	- flex-end
