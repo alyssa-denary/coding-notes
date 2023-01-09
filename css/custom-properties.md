@@ -1,6 +1,8 @@
 ### CSS custom properties:
-- Add for every single color? including places that use standard black/white, etc. ? 
-- Generally not recommended to use standard/built in colors, as these are arbitrarily chosen
+- Custom properties are a way to set your own variables.
+- Typically and often used for colors. 
+- Built into CSS: Custom properties cascade and inherit (making them better than sass variables)
+- Add for all colors used within a project. Generally not recommended to use standard/built in colors (even black/white) as these are arbitrarily chosen.
 - Companies tend to have own set of colors chosen/approved that are then stored in custom properties
 
 ```css
