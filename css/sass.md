@@ -10,7 +10,7 @@
 		- remember there are two syntaxes, scss and sass
 			- save file with extension `.scss` 
 - How to use the node-sass package you installed?
-	- use by writing an npm <u>script</u> in <u>package.json file</u>
+	- use by writing an [[npm]] <u>script</u> in <u>package.json file</u>
 	- See sample script below, basically writing the terminal commands to execute, but wouldn’t work if you just ran this command in terminal.
 ```json
 {
