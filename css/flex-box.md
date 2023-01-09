@@ -41,7 +41,14 @@
 	- space-between
 	- space-around
 
-### 
+### Item Properties
+#### `align-self`
+#### `order`
+#### `flex-grow`
+#### `flex-shrink`
+#### `flex-basis`
+
+
 Notice how some of your images have become distorted. This is because the images have different aspect ratios. Rather than setting each aspect ratio individually, you can use the `object-fit` property to determine how images should behave.
 	-object-fit: cover;
 		#add 
