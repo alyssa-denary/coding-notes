@@ -1,7 +1,7 @@
-#refactor 
+- Flexbox is a one-dimensional CSS layout that can control the way items are spaced out and aligned within a container.
+- Main idea of flexbox: gives container ability to expand and shrink elements to best use available space. (replaces float layouts)
 
-Flexbox is a one-dimensional CSS layout that can control the way items are spaced out and aligned within a container.
-
+#refactor
 To use it, give an element a `display` property of `flex`. This will make the element a _flex container_. Any direct children of a flex container are called _flex items_.
 
 Flexbox has a main and cross axis. The main axis is defined by the `flex-direction` property, which has four possible values:
