@@ -13,4 +13,4 @@
 - 7-1 pattern
 - ![[conceptual-architechiture-1670561583280.jpeg]]
 - ![[conceptual-architechiture-1670561559559.jpeg]]
-- 
+- See more at [[organizing-css]]
