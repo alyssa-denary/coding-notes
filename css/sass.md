@@ -59,7 +59,7 @@
 
 ### Common use cases
 #### Colors
-- Can declare colors using $ defined variables and then use with $ label
+- Can declare colors using `$` defined variables and then use with `$` label
 ```scss
 * {
 	margin: 0;
@@ -149,8 +149,8 @@ a:link {
 	}
 }
 ```
-- BUT, would have to write a query for each selector (whether within each selector or one big query)
-	- Instead, better to write a mixin that will do this work for us
+- BUT, would be better to write ‘reusable’ code - particularly for definining the breakpoints.  That way, if you have to change the breakpoints later - you only need to change them in 1 place, instead of within each selector.
+	- ‘reusable’ code for breakpoints => mixin
 ###### Content Directive
 - Allows us to pass a block of code into a mixin
 - Example:
@@ -201,6 +201,7 @@ body {
 - But still, with this way, you have multiple different mixins for each breakpoint. We want one large mixin with all the breakpoints
 ###### If directive
 - Note refactor from media queries using pixels to those using ems
+	- ems keeps page responsive - if user manually changes default font size, those queries set with px wouldn’t be affected, and we want the pg to be affected/responsive.
 	- ems must be used instead of rems because those in media query are not affected by the root font-size setting. Instead, they respond to the browser default setting, so we use ems. 
 	- Since 16px is typically the default browser font-size, this was used to calculate ems
 		- $breakpoint - phone: 600/16 = 37.5 em
