@@ -16,4 +16,5 @@ p::before {
 		- content
 		- display
 		- basically treated like a child of the html element selected
-		- 
+	- Note that if within a flex container, will be affected by flex properties on that container (justify-content, etc.)
+
