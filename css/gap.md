@@ -1,0 +1,1 @@
+The `gap` CSS shorthand property sets the gaps, also knowns as gutters, between rows and columns. The `gap` property and its `row-gap` and `column-gap` sub-properties provide this functionality for flex, grid, and multi-column layout. You apply the property to the container element.
