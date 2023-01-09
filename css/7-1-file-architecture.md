@@ -55,7 +55,10 @@
 		- Animation framework
 
 ### Importing
-- Need to import all partials into main file
-- Goal is for main file to have no code besides importing the partials
-- 
+- All partials must be imported into main file
+	- Goal is for main file to have no code besides importing the partials
+	- Note SCSS shorthand for importing: 
+```scss
+@import "base/base";  // equates to "base/_base.scss"
+```
 
