@@ -15,7 +15,8 @@ Navigation is a core part of accessibility, and screen readers rely on you to pr
 
 ### SVG
 A useful property of an _SVG_ (scalable vector graphics) is that it contains a `path` attribute which allows the image to be scaled without affecting the resolution of the resultant image.
-
+-svg icons are better than font-icons: screen readers try to read out font-icons and fail to do so. Best practice to move away from icon fonts and instead use SVGs. 
+- Icomoon: web app for using svgs
 
 ### role
 To increase the page accessibility, the `role` attribute can be used to indicate the purpose behind an element on the page to assistive technologies. The `role` attribute is a part of the _Web Accessibility Initiative_ (WAI), and accepts preset values.
