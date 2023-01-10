@@ -1,7 +1,7 @@
 ### CSS custom properties:
 - Custom properties are a way to set your own variables.
 - Typically and often used for colors. 
-- Built into CSS: Custom properties cascade and inherit (making them better than sass variables)
+- Built into CSS: Custom properties cascade and inherit (making them better than sass variables), they can be manipulated in javascript, edited with dev tools, easier to use in code function. 
 - Add for all colors used within a project. Generally not recommended to use standard/built in colors (even black/white) as these are arbitrarily chosen.
 - Companies tend to have own set of colors chosen/approved that are then stored in custom properties
 
