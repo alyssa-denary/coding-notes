@@ -30,3 +30,7 @@ footer {
 	padding: 15px 0px;
 }
 ```
+
+### currentColor
+- will set item to match color (text) setting. 
+- useful for having svgs, borders, etc. match text

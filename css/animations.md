@@ -137,3 +137,5 @@
 
 ## Accessibility
 - Use a [Reduced Motion Media Query](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) to create a complimentary experience for users who have expressed a preference for reduced animated experiences.
+
+[[animation-examples]]
