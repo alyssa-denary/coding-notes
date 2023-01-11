@@ -3,13 +3,16 @@
 	- Keyframes-at rule and animation property: More advanced
 
 ## Transition
-- Add transition property to initial state
-	- May specify which properties to enable transformation/animation for, or just put all
-	- Specify time
-- Add transform and/or other properties to modify on animation states
+- Transition is shorthand property for: `transition-property`, `transition-duration`, `transition-timing-function` and `transition-delay`
+  property name | duration | easing function | delay 
+	- First parsed number will be duration, second will be delay
+- Add transition property to the initial state of the element
+	- May specify which properties to enable transformation/animation for (i.e. tranform different from width), or just put all
+- On animation states, add properties to modify (i.e. transform), or properties with their final position (i.e. width: 100%)
+
 ```css
 .selector:initial-state {
-	transition: all 0.2s;
+	transition: all 0.2s; 
 }
 
 .selector:state-to-animate {
@@ -23,6 +26,14 @@
 }
 ```
 
+### Common animated properties
+#### transform
+- Scale X/Y: scales on X or Y axis, Scale is shorthand that combines both
+- transform-origin: default is center, where scaling starts
+#### width
+#### box-shadow
+
+### [Examples](animation-examples)
 - Example of making button hover effect, then “pressing down” effect when button clicked
 ```css
 .btn:link,
@@ -40,6 +51,7 @@
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Box-shadow becomes less upon clicking that adds to "pressing down" effect */
 }
 ```
+
 
 ## Keyframes
 ```css

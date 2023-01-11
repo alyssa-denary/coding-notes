@@ -55,6 +55,8 @@ The `z-index` property is used to create "layers" for your HTML elements. If you
 
 Elements with a higher `z-index` value will appear to be layered on top of elements with a lower `z-index` value. This can be combined with the positioning in the previous lesson to create unique effects.
 
+- & z-index only works if you have a specified position
+
 ## Calc function
 #refactor 
 The `calc()` function is a CSS function that allows you to calculate a value based on other values. For example, you can use it to calculate the width of the viewport minus the margin of an element:
